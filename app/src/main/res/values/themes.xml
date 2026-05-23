@@ -1,0 +1,4 @@
+<resources>
+    <!-- Base application theme - actual colors/typography come from Compose Material 3 -->
+    <style name="Theme.CourseMapper" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>

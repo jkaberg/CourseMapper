@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder launcher foreground: a simple map-pin shape -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer safe-zone circle background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20 C38.536,20 26,32.536 26,48 C26,63.464 54,88 54,88 C54,88 82,63.464 82,48 C82,32.536 69.464,20 54,20 Z"/>
+    <!-- Inner marker dot -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M54,38 C48.477,38 44,42.477 44,48 C44,53.523 48.477,58 54,58 C59.523,58 64,53.523 64,48 C64,42.477 59.523,38 54,38 Z"/>
+</vector>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CourseMapper</string>
+    <string name="notification_channel_recording_name">Route Recording</string>
+    <string name="notification_channel_recording_desc">Active while a route is being recorded</string>
+    <string name="notification_recording_title">Recording route…</string>
+    <string name="notification_recording_text">Tap to return to CourseMapper</string>
+</resources>
