@@ -1,0 +1,98 @@
+[versions]
+agp                     = "8.9.1"
+kotlin                  = "2.1.0"
+ksp                     = "2.1.0-1.0.29"
+hilt                    = "2.56.1"
+hilt-navigation-compose = "1.2.0"
+compose-bom             = "2025.04.00"
+navigation-compose      = "2.9.0"
+room                    = "2.7.1"
+lifecycle               = "2.9.0"
+activity-compose        = "1.10.1"
+appcompat               = "1.7.0"
+coroutines              = "1.10.1"
+maplibre                = "11.8.3"
+play-services-location  = "21.3.0"
+work                    = "2.10.1"
+datastore               = "1.1.4"
+junit                   = "4.13.2"
+robolectric             = "4.14.1"
+androidx-test-core      = "1.6.1"
+junit-ext               = "1.2.1"
+espresso                = "3.6.1"
+mockk                   = "1.13.17"
+coroutines-test         = "1.10.1"
+json                    = "20240303"
+roborazzi               = "1.60.0"
+
+[libraries]
+# Compose BOM
+compose-bom             = { group = "androidx.compose", name = "compose-bom",              version.ref = "compose-bom" }
+appcompat               = { group = "androidx.appcompat", name = "appcompat",               version.ref = "appcompat" }
+compose-ui              = { group = "androidx.compose.ui", name = "ui" }
+compose-ui-graphics     = { group = "androidx.compose.ui", name = "ui-graphics" }
+compose-ui-tooling      = { group = "androidx.compose.ui", name = "ui-tooling" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-ui-test-manifest   = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+compose-ui-test-junit4     = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+compose-material3       = { group = "androidx.compose.material3", name = "material3" }
+compose-material-icons  = { group = "androidx.compose.material", name = "material-icons-extended" }
+
+# Core
+activity-compose        = { group = "androidx.activity",        name = "activity-compose",         version.ref = "activity-compose" }
+navigation-compose      = { group = "androidx.navigation",      name = "navigation-compose",        version.ref = "navigation-compose" }
+lifecycle-viewmodel     = { group = "androidx.lifecycle",       name = "lifecycle-viewmodel-ktx",   version.ref = "lifecycle" }
+lifecycle-compose       = { group = "androidx.lifecycle",       name = "lifecycle-runtime-compose", version.ref = "lifecycle" }
+lifecycle-service       = { group = "androidx.lifecycle",       name = "lifecycle-service",         version.ref = "lifecycle" }
+
+# Hilt
+hilt-android            = { group = "com.google.dagger", name = "hilt-android",             version.ref = "hilt" }
+hilt-compiler           = { group = "com.google.dagger", name = "hilt-android-compiler",    version.ref = "hilt" }
+hilt-navigation-compose = { group = "androidx.hilt",     name = "hilt-navigation-compose",  version.ref = "hilt-navigation-compose" }
+
+# Room
+room-runtime            = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-ktx                = { group = "androidx.room", name = "room-ktx",     version.ref = "room" }
+room-compiler           = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+
+# Coroutines
+coroutines-android      = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+
+# Location
+play-services-location  = { group = "com.google.android.gms", name = "play-services-location", version.ref = "play-services-location" }
+
+# MapLibre
+maplibre-android        = { group = "org.maplibre.gl", name = "android-sdk", version.ref = "maplibre" }
+
+# WorkManager (offline scheduler)
+work-runtime-ktx        = { group = "androidx.work", name = "work-runtime-ktx",     version.ref = "work" }
+hilt-work               = { group = "androidx.hilt",  name = "hilt-work",            version.ref = "hilt-navigation-compose" }
+hilt-work-compiler      = { group = "androidx.hilt",  name = "hilt-compiler",        version.ref = "hilt-navigation-compose" }
+
+# DataStore (lightweight prefs)
+datastore-prefs         = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore" }
+
+# Testing
+junit                   = { group = "junit",          name = "junit",              version.ref = "junit" }
+junit-ext               = { group = "androidx.test.ext", name = "junit",           version.ref = "junit-ext" }
+espresso-core           = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
+mockk                   = { group = "io.mockk",       name = "mockk",              version.ref = "mockk" }
+mockk-android           = { group = "io.mockk",       name = "mockk-android",      version.ref = "mockk" }
+coroutines-test         = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines-test" }
+# Real org.json for local unit tests (android.jar ships non-functional stubs)
+json                    = { group = "org.json",       name = "json",               version.ref = "json" }
+robolectric             = { group = "org.robolectric", name = "robolectric",     version.ref = "robolectric" }
+androidx-test-core      = { group = "androidx.test",   name = "core",            version.ref = "androidx-test-core" }
+room-testing            = { group = "androidx.room",   name = "room-testing",    version.ref = "room" }
+# Screenshot tests
+roborazzi               = { group = "io.github.takahirom.roborazzi", name = "roborazzi",            version.ref = "roborazzi" }
+roborazzi-compose       = { group = "io.github.takahirom.roborazzi", name = "roborazzi-compose",    version.ref = "roborazzi" }
+roborazzi-junit-rule    = { group = "io.github.takahirom.roborazzi", name = "roborazzi-junit-rule", version.ref = "roborazzi" }
+
+[plugins]
+android-application     = { id = "com.android.application",         version.ref = "agp" }
+kotlin-android          = { id = "org.jetbrains.kotlin.android",    version.ref = "kotlin" }
+kotlin-compose          = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+ksp                     = { id = "com.google.devtools.ksp",         version.ref = "ksp" }
+hilt                    = { id = "com.google.dagger.hilt.android",  version.ref = "hilt" }
+roborazzi               = { id = "io.github.takahirom.roborazzi",    version.ref = "roborazzi" }

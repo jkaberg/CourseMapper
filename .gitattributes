@@ -1,0 +1,16 @@
+# The Gradle wrapper is a POSIX shell script: CRLF makes it unrunnable on the
+# CI runner, and Git for Windows would supply CRLF without this.
+gradlew    text eol=lf
+*.sh       text eol=lf
+
+# Windows scripts want the opposite.
+gradlew.bat text eol=crlf
+*.bat       text eol=crlf
+*.ps1       text eol=crlf
+
+# Binary - never line-ending-converted, never diffed as text.
+*.jar   binary
+*.apk   binary
+*.png   binary
+*.keystore binary
+*.jks   binary

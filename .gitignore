@@ -1,0 +1,39 @@
+# ── Gradle ────────────────────────────────────────────────────────────────────
+.gradle/
+build/
+.kotlin/
+build_out.txt
+
+# Machine-specific: sdk.dir points at this checkout's Android SDK.
+local.properties
+
+# ── Android build outputs ─────────────────────────────────────────────────────
+*.apk
+*.aab
+*.ap_
+*.aar
+*.dex
+*.class
+captures/
+.cxx/
+output.json
+
+# ── Signing - never commit a key or its passwords ─────────────────────────────
+*.jks
+*.keystore
+keystore.properties
+key.properties
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Tooling ───────────────────────────────────────────────────────────────────
+.claude/settings.local.json
