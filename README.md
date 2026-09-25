@@ -3,6 +3,9 @@
 [![Release](https://img.shields.io/github/v/release/jkaberg/CourseMapper?sort=semver)](https://github.com/jkaberg/CourseMapper/releases/latest)
 [![Build](https://github.com/jkaberg/CourseMapper/actions/workflows/release.yml/badge.svg)](https://github.com/jkaberg/CourseMapper/actions/workflows/release.yml)
 [![License](https://img.shields.io/github/license/jkaberg/CourseMapper)](LICENSE)
+[![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://developer.android.com/about/versions/oreo)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.1-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/jkaberg)
 
 Android app for placing the kilometre markers along a race course.
 
